@@ -71,7 +71,7 @@
     box-sizing: inherit;
     position: relative;
   }
-
+  
   .angular-logo {
     max-width: 9.2rem;
   }
@@ -226,8 +226,19 @@
         </defs>
       </svg>
       <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <p>Congratulations! Your app is running. 🎉 <textarea class="textarea1"> test </textarea><br/> You designed it with 🖤!</p>
+    <br>
+    <div class="button01">
+      <button (click)="onClickMe()">Click me!</button>
+    </div> 
+    <div>
+      {{clickMessage}}
     </div>
+    <div>
+      
+    </div>
+  </div>
+  
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">

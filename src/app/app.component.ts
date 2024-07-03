@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+  clickMessage = '';
+  title = 'Hello World';
+  onClickMe() {
+    this.clickMessage = 'You are my hero!';
+  }
+  
 }
+
